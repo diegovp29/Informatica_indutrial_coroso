@@ -5,8 +5,7 @@
 Tenemos 3 pulsadores, A, B y C, el pulsador A está conectado al pin 10, el pulsador B está conectado al pin 9 y el pulsador C está conectado al pin 8
 
 Si el pulsador B está pulsado y  los pulsadores B y C no, se enciende el led, si los pulsadores A y B están pulsados y el pulsador C no, se enciende el led, y si todos los pulsadores están pulsados, se enciende el led.
-Cuando el led se enciende, queda encendido durante 4 segundos. En caso de no cumplirse ninguno de los casos anteriores, el led permanecerá apagado.
-*/
+Cuando el led se enciende, queda encendido durante 4 segundos. En caso de no cumplirse ninguno de los casos anteriores, el led permanecerá apagado.*/
 void setup()
 {
   //Pulsador A en el pin 10
