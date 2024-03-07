@@ -1,6 +1,6 @@
-/* En esta práctica se van a controlar dos motores con un pulsador imitando el funcionamiento de la ventanilla de un coche, de forma que al pulsar el pulsador se activa el primer motor y al volver a pulsarlo se activa
-el segundo motor, los motores se mantienen activos duracte 7 segundos tras pulsar el pulsador, si se pulsa el pulsador mientras uno de los motores está activo, este se detendrá y se activará el otro sin pasar
-por paro, nunca pueden estar los dos motores activos al mismo tiempo. */
+/* En esta práctica se van a controlar dos motores con un pulsador imitando el funcionamiento de la ventanilla de un coche, de forma que al pulsar el pulsador se activa el primer motor y al volver a pulsarlo se detiene,
+si pulsamos nuevamente se activa el otro motor y así sucesivamente. Si accionamos un final de carrera mientras en motor respectivo a ese final de carrera está activo, este se detendrá y si pulsamos el pulsador de 
+marcha/paro se activa el motor contrario.*/
 
 #define pulsador 12
 #define motorSubir 11
